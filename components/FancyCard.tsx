@@ -54,8 +54,8 @@ const styles = StyleSheet.create({
   cardImage: {
     height: 150,
     marginBottom: 8,
-    borderTopLeftRadius:6,
-    borderTopRightRadius:6
+    // borderTopLeftRadius:6,
+    // borderTopRightRadius:6
   },
   cardElevated: {
     backgroundColor: "#FFFFFF",
@@ -70,12 +70,25 @@ const styles = StyleSheet.create({
   },
   cardTitle: {
     color: "#000000",
+    fontSize:22,
+    fontWeight:"bold"
   },
   cardLabel: {
     color: "#000000",
+    fontSize:16,
+    marginBottom:4
   },
   cardDescription: {
     color: "#000000",
+    fontSize:12,
+    marginBottom:12,
+    flexShrink:1,
+    marginTop:6
+  },
+  cardBody:{
+    flex:1,
+    flexGrow:1,
+    paddingHorizontal:12
   },
   cardFooter: {
     color: "#000000",
