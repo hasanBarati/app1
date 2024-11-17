@@ -13,6 +13,7 @@ import { ThemedView } from "@/components/ThemedView";
 import FlatCard from "@/components/FlatCard";
 import ElevatedCards from "@/components/ElevatedCards";
 import FancyCards from "@/components/FancyCard";
+import ActionCard from "@/components/ActionCard";
 
 export default function HomeScreen() {
   return (
@@ -21,6 +22,7 @@ export default function HomeScreen() {
         <FlatCard />
         <ElevatedCards />
         <FancyCards/>
+        <ActionCard/>
       </ScrollView>
     </SafeAreaView>
   );
