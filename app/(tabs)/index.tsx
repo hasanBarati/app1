@@ -1,19 +1,14 @@
 import {
-  Image,
-  StyleSheet,
-  Platform,
   SafeAreaView,
   ScrollView,
+  StyleSheet
 } from "react-native";
 
-import { HelloWave } from "@/components/HelloWave";
-import ParallaxScrollView from "@/components/ParallaxScrollView";
-import { ThemedText } from "@/components/ThemedText";
-import { ThemedView } from "@/components/ThemedView";
-import FlatCard from "@/components/FlatCard";
+import ActionCard from "@/components/ActionCard";
+import ContactList from "@/components/ContactLists";
 import ElevatedCards from "@/components/ElevatedCards";
 import FancyCards from "@/components/FancyCard";
-import ActionCard from "@/components/ActionCard";
+import FlatCard from "@/components/FlatCard";
 
 export default function HomeScreen() {
   return (
@@ -22,6 +17,7 @@ export default function HomeScreen() {
         <FlatCard />
         <ElevatedCards />
         <FancyCards/>
+        <ContactList/>
         <ActionCard/>
       </ScrollView>
     </SafeAreaView>

@@ -10,7 +10,7 @@ export default function ActionCard() {
       <Text style={styles.headingText}> textInComponent </Text>
       <View style={[styles.card, styles.elavatedCard]}>
         <View style={styles.headingContainer}>
-          <Text style={styles.headerText}>Waht's new in javascript 21</Text>
+           <Text style={styles.headerText}>Waht's new in javascript 21</Text>
         </View>
         <Image
           style={styles.cardImage}
