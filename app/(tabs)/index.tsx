@@ -9,16 +9,18 @@ import ContactList from "@/components/ContactLists";
 import ElevatedCards from "@/components/ElevatedCards";
 import FancyCards from "@/components/FancyCard";
 import FlatCard from "@/components/FlatCard";
+import PasswordGenerator from "@/components/PasswordGenerator";
 
 export default function HomeScreen() {
   return (
     <SafeAreaView>
       <ScrollView>
-        <FlatCard />
+        {/* <FlatCard />
         <ElevatedCards />
         <FancyCards/>
         <ContactList/>
-        <ActionCard/>
+        <ActionCard/> */}
+        <PasswordGenerator/>
       </ScrollView>
     </SafeAreaView>
   );
