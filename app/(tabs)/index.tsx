@@ -1,8 +1,4 @@
-import {
-  SafeAreaView,
-  ScrollView,
-  StyleSheet
-} from "react-native";
+import { SafeAreaView, ScrollView, StatusBar, StyleSheet } from "react-native";
 
 import ActionCard from "@/components/ActionCard";
 import ContactList from "@/components/ContactLists";
@@ -10,17 +6,25 @@ import ElevatedCards from "@/components/ElevatedCards";
 import FancyCards from "@/components/FancyCard";
 import FlatCard from "@/components/FlatCard";
 import PasswordGenerator from "@/components/PasswordGenerator";
+import RollDice from "@/components/RollDice";
+import Hopstic from "@/components/Hopstic";
+import React from "react";
+import CurrencyConvertor from "@/components/CurrencyConvertor";
 
 export default function HomeScreen() {
   return (
     <SafeAreaView>
       <ScrollView>
+        <StatusBar/>
         {/* <FlatCard />
         <ElevatedCards />
         <FancyCards/>
         <ContactList/>
         <ActionCard/> */}
-        <PasswordGenerator/>
+        {/* <PasswordGenerator/> */}
+        {/* <RollDice/> */}
+        {/* <Hopstic /> */}
+        <CurrencyConvertor/>
       </ScrollView>
     </SafeAreaView>
   );
